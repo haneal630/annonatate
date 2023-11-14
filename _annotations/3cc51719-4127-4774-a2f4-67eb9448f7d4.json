@@ -3,9 +3,27 @@ canvas: "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-0
 order: 1
 ---
 {
-    "type": "Annotation",
-    "body": [],
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "A necklace",
+            "purpose": "commenting",
+            "creator": {
+                "id": "haneal630",
+                "name": "haneal630"
+            },
+            "created": "2023-11-14T11:43:51.904Z",
+            "modified": "2023-11-14T11:43:59.423Z"
+        }
+    ],
+    "id": "3cc51719-4127-4774-a2f4-67eb9448f7d4.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"1893.8056945800781\" cy=\"5352.334716796875\" r=\"1142.4439290981352\"></circle></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00006",
@@ -13,13 +31,7 @@ order: 1
             },
             "id": "https://www.digitalcollections.manchester.ac.uk/iiif/MS-GASTER-AMULET-00006/canvas/1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><circle cx=\"1893.8056945800781\" cy=\"5352.334716796875\" r=\"1142.4439290981352\"></circle></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3cc51719-4127-4774-a2f4-67eb9448f7d4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
