@@ -6,15 +6,15 @@ order: 1
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "A necklace",
-            "purpose": "commenting",
+            "created": "2023-11-14T11:43:51.904Z",
             "creator": {
                 "id": "haneal630",
                 "name": "haneal630"
             },
-            "created": "2023-11-14T11:43:51.904Z",
-            "modified": "2023-11-14T11:43:59.423Z"
+            "modified": "2023-11-14T11:43:59.423Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "A necklace"
         }
     ],
     "id": "3cc51719-4127-4774-a2f4-67eb9448f7d4.json",
